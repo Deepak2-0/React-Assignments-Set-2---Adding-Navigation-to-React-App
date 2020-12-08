@@ -10,7 +10,7 @@ import "../styles/App.css";
 import About from "./About";
 import Home from "./Home";
 import Invalid from "./Invalid";
-import LocationDisplay from "./LocationDisplay";
+import LocationDisplayComponent from "./LocationDisplay";
 
 class App extends Component {
   render() {
@@ -25,7 +25,7 @@ class App extends Component {
             <Route path="/" exact component={Home} />
             <Route path="/" component={Invalid} />
           </Switch>
-          <LocationDisplay />
+          <LocationDisplayComponent />
         </BrowserRouter>
       </div>
     );
