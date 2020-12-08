@@ -21,9 +21,9 @@ class App extends Component {
           <Link to="/"> Home</Link>
           <Link to="/about">About</Link>
           <Switch>
+            <Route path="/about" component={About} />
             <Route path="/" exact component={Home} />
-            <Route path="/about" exact component={About} />
-            <Route path="/:invalid" component={Invalid} />
+            <Route path="/" component={Invalid} />
           </Switch>
           <LocationDisplay />
         </BrowserRouter>
