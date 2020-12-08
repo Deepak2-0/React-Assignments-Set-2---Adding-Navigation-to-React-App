@@ -10,7 +10,7 @@ import "../styles/App.css";
 import About from "./About";
 import Home from "./Home";
 import Invalid from "./Invalid";
-import LocationDisplayComponent from "./LocationDisplay";
+import LocationDisplayComponent from "./LocationDisplayComponent";
 
 class App extends Component {
   render() {
