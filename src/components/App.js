@@ -1,11 +1,5 @@
 import React, { Component, useState } from "react";
-import {
-  BrowserRouter,
-  Link,
-  Route,
-  Switch,
-  useLocation
-} from "react-router-dom";
+import { BrowserRouter, Link, Route, Switch } from "react-router-dom";
 import "../styles/App.css";
 import About from "./About";
 import Home from "./Home";
