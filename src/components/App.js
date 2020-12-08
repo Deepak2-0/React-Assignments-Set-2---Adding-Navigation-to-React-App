@@ -33,3 +33,4 @@ class App extends Component {
 }
 
 export default App;
+export const LocationDisplay = LocationDisplayComponent;
